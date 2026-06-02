@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Destek Programı Şablonu",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Desteğin benzersiz kimliği"
+    },
+    "kurum": {
+      "type": "string",
+      "description": "Desteği sağlayan kurum (örn. KOSGEB)"
+    },
+    "destek_adi": {
+      "type": "string",
+      "description": "Destek programının tam adı"
+    },
+    "kategori": {
+      "type": "string",
+      "description": "Desteğin kategorisi (örn. Ar-Ge, İhracat)"
+    },
+    "maksimum_tutar": {
+      "type": "number",
+      "description": "Sağlanan maksimum finansal destek (TL cinsinden)"
+    },
+    "basvuru_linki": {
+      "type": "string",
+      "description": "Resmi başvuru adresi URL'si"
+    }
+  },
+  "required": ["id", "kurum", "destek_adi"]
+}
