@@ -5,7 +5,9 @@
     "destek_adi": "Ar-Ge, İnovasyon ve Endüstriyel Uygulama Destek Programı",
     "kategori": "Ar-Ge",
     "maksimum_tutar": 6000000,
-    "basvuru_linki": "https://www.kosgeb.gov.tr/"
+    "basvuru_linki": "https://www.kosgeb.gov.tr/",
+    "hedef_kitle": ["KOBİ", "Girişimci"],
+    "son_basvuru_tarihi": null
   },
   {
     "id": "ticaret-fuar-01",
@@ -13,6 +15,28 @@
     "destek_adi": "Yurt Dışı Fuar Katılım Desteği",
     "kategori": "İhracat",
     "maksimum_tutar": 500000,
-    "basvuru_linki": "https://ticaret.gov.tr/destekler"
+    "basvuru_linki": "https://ticaret.gov.tr/destekler",
+    "hedef_kitle": ["İhracatçı KOBİ", "Üretici"],
+    "son_basvuru_tarihi": null
+  },
+  {
+    "id": "kosgeb-kobi-proje",
+    "kurum": "KOSGEB",
+    "destek_adi": "KOBİ Proje Destek Programı",
+    "kategori": "Büyüme & Operasyon",
+    "maksimum_tutar": 3000000,
+    "basvuru_linki": "https://www.kosgeb.gov.tr/",
+    "hedef_kitle": ["KOBİ"],
+    "son_basvuru_tarihi": "2026-12-31"
+  },
+  {
+    "id": "sanayi-yatirim-01",
+    "kurum": "Sanayi ve Teknoloji Bakanlığı",
+    "destek_adi": "Bölgesel Yatırım Teşvikleri",
+    "kategori": "Yatırım",
+    "maksimum_tutar": 10000000,
+    "basvuru_linki": "https://www.sanayi.gov.tr/",
+    "hedef_kitle": ["Tüm İşletmeler", "Büyük İşletmeler"],
+    "son_basvuru_tarihi": null
   }
 ]

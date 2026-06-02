@@ -26,7 +26,19 @@
     "basvuru_linki": {
       "type": "string",
       "description": "Resmi başvuru adresi URL'si"
+    },
+    "hedef_kitle": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Destek programının hedef kitlesi (örn. KOBİ, Girişimci)"
+    },
+    "son_basvuru_tarihi": {
+      "type": "string",
+      "format": "date",
+      "description": "Desteğe başvurulabilecek son tarih (Sürekli açık ise null)"
     }
   },
-  "required": ["id", "kurum", "destek_adi"]
+  "required": ["id", "kurum", "destek_adi", "kategori", "maksimum_tutar", "basvuru_linki"]
 }
